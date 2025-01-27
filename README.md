@@ -1,0 +1,2 @@
+# Recuperacao-de-Clientes-com-Market-Basket-Analysis
+Este projeto faz parte da análise da queda nas vendas, no qual foi implementado um algoritmo em Python utilizando a metodologia Market Basket Analysis para personalizar recomendações de produtos. A solução identificou padrões de consumo e gerou sugestões alinhadas ao histórico de cada cliente, otimizando estratégias de recuperação e fidelização.
