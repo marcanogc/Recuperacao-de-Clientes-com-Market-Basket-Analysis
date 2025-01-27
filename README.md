@@ -52,5 +52,31 @@ El proyecto está estructurado en las siguientes fases:
 ### Instrucciones de Instalación
 
 1. Clona este repositorio en tu máquina local:
-   ```bash
+
    git clone https://github.com/marcanogc/Recuperacao-de-Clientes-com-Market-Basket-Analysis.git
+
+2. Instala las dependencias de Python:
+
+   pip install -r requirements.txt
+
+3. Conecta el archivo de base de datos SQLite con los scripts de SQL proporcionados.
+
+4. Ejecuta el script de Python para generar las recomendaciones personalizadas.
+
+   python analisis_datos.py
+
+5. Abre el archivo de Power BI para explorar el dashboard interactivo.
+
+Contribuciones:
+
+Las contribuciones a este proyecto son bienvenidas. Si deseas mejorar o añadir nuevas funcionalidades, por favor sigue estos pasos:
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
+
+Contacto
+Nombre: Gabriel Marcano
+Email: marcanogc@gmail.com
+
+Agradecimientos:
+
+Agradezco al Sr. Isaac González, fundador de DS4B, por su orientación en la implementación de estrategias avanzadas de análisis de datos aplicadas al marketing.
