@@ -1,82 +1,83 @@
-# Análisis de Datos para Recuperación de Clientes
+# Análise de Dados para Recuperação de Clientes
 
-Este proyecto se centra en el análisis de datos de ventas con el objetivo de identificar patrones de consumo y desarrollar recomendaciones personalizadas para recuperar clientes. A través de herramientas avanzadas como **SQL**, **Python** y **Power BI**, se diseñó una solución estratégica que aborda la caída en las ventas y mejora las relaciones con los consumidores.
+Este projeto tem como foco a análise de dados de vendas com o objetivo de identificar padrões de consumo e desenvolver recomendações personalizadas para recuperar clientes. Por meio de ferramentas avançadas como **SQL**, **Python** e **Power BI**, foi criada uma solução estratégica para enfrentar a queda nas vendas e fortalecer o relacionamento com os consumidores.
 
-## Descripción del Proyecto
+## Descrição do Projeto
 
 ### Objetivo
-El principal objetivo de este proyecto fue analizar los datos de ventas de una empresa para identificar patrones de comportamiento de los clientes, desarrollar un algoritmo de recomendación personalizado utilizando la metodología **Market Basket Analysis** y construir un dashboard interactivo en **Power BI** para visualizar los resultados y ayudar en la toma de decisiones de marketing.
+O principal objetivo deste projeto foi analisar os dados de vendas de uma empresa para identificar padrões de comportamento dos clientes, desenvolver um algoritmo de recomendação personalizado utilizando a metodologia de **Market Basket Analysis** e construir um dashboard interativo no **Power BI** para visualizar os resultados e apoiar a tomada de decisões de marketing.
 
-### Herramientas y Tecnologías Utilizadas
-- **SQL**: Consultas avanzadas sobre bases de datos SQLite para análisis de ventas y comportamiento del cliente.
-- **Python**: Uso de la biblioteca **Pandas** para el procesamiento de datos y la implementación de un algoritmo de **Market Basket Analysis**.
-- **Power BI**: Creación de un dashboard interactivo para la visualización y análisis de datos.
-- **Market Basket Analysis**: Implementación de algoritmos para generar recomendaciones personalizadas basadas en las reglas de probabilidad y el historial de compras.
+### Ferramentas e Tecnologias Utilizadas
+* **SQL**: Consultas avançadas em bases de dados SQLite para análise de vendas e comportamento dos clientes.
+* **Python**: Uso da biblioteca **Pandas** para processamento de dados e implementação do algoritmo de **Market Basket Analysis**.
+* **Power BI**: Criação de um dashboard interativo para visualização e análise dos dados.
+* **Market Basket Analysis**: Implementação de algoritmos para gerar recomendações personalizadas com base em regras de probabilidade e no histórico de compras.
 
-### Estrategias Implementadas
-1. **Identificación de patrones de consumo**: Análisis del historial de compras y descubrimiento de productos complementarios a través de consultas SQL.
-2. **Desarrollo de recomendaciones personalizadas**: Implementación de un algoritmo de **Market Basket Analysis** para ofrecer recomendaciones precisas a los clientes.
-3. **Visualización de resultados**: Creación de un dashboard interactivo en **Power BI** que muestra los datos de ventas, patrones de compra y recomendaciones personalizadas.
-4. **Optimización de estrategias de marketing**: Uso del dashboard como herramienta para tomar decisiones informadas y ajustar las campañas de marketing.
+### Estratégias Implementadas
+1. **Identificação de padrões de consumo**  
+   Análise do histórico de compras e descoberta de produtos complementares por meio de consultas SQL.
+2. **Desenvolvimento de recomendações personalizadas**  
+   Implementação de um algoritmo de **Market Basket Analysis** para oferecer recomendações mais precisas aos clientes.
+3. **Visualização dos resultados**  
+   Criação de um dashboard interativo no **Power BI**, apresentando dados de vendas, padrões de compra e recomendações personalizadas.
+4. **Otimização das estratégias de marketing**  
+   Utilização do dashboard como ferramenta para apoiar decisões e ajustar campanhas de marketing com base em dados.
 
 ### Resultados Esperados
-- Creación de una experiencia de cliente más personalizada.
-- Incremento de la efectividad de las estrategias de marketing basadas en datos.
-- Reforzamiento de la relación con los consumidores y aumento de la tasa de recuperación de clientes.
+* Criação de uma experiência do cliente mais personalizada.
+* Aumento da efetividade das estratégias de marketing orientadas por dados.
+* Fortalecimento do relacionamento com os consumidores e aumento da taxa de recuperação de clientes.
 
-## Estructura del Proyecto
+## Estrutura do Projeto
 
-El proyecto está estructurado en las siguientes fases:
+O projeto está organizado nas seguintes fases:
 
-1. **Fase 1: Preparación de los Datos**
-   - Extracción y limpieza de los datos de ventas utilizando **SQL**.
-   - Identificación de los clientes, productos y patrones clave en los datos.
+1. **Fase 1: Preparação dos Dados**
+   * Extração e limpeza dos dados de vendas utilizando **SQL**.
+   * Identificação de clientes, produtos e padrões relevantes nos dados.
+2. **Fase 2: Análise e Desenvolvimento das Recomendações**
+   * Implementação do algoritmo de **Market Basket Analysis** em **Python** para gerar recomendações personalizadas.
+   * Ajustes no algoritmo com base nos resultados obtidos.
+3. **Fase 3: Criação do Dashboard**
+   * Construção de um **dashboard** no **Power BI** para visualização e análise interativa dos resultados.
+4. **Fase 4: Validação e Apresentação dos Resultados**
+   * Validação dos resultados e geração de insights para apoiar as estratégias de marketing.
 
-2. **Fase 2: Análisis y Desarrollo de Recomendaciones**
-   - Implementación del algoritmo de **Market Basket Analysis** en **Python** para generar recomendaciones personalizadas.
-   - Ajuste del algoritmo con base en los resultados obtenidos.
-
-3. **Fase 3: Creación del Dashboard**
-   - Construcción de un **dashboard** en **Power BI** para visualización y análisis interactivo de los resultados.
-
-4. **Fase 4: Validación y Presentación de Resultados**
-   - Validación de los resultados y generación de insights para las estrategias de marketing.
-
-## Cómo Ejecutar el Proyecto
+## Como Executar o Projeto
 
 ### Requisitos
-- **Python 3.x**: Para ejecutar el script de análisis y generar las recomendaciones.
-- **SQL**: Base de datos para la extracción de datos de ventas.
-- **Power BI**: Para visualizar los resultados y crear el dashboard interactivo.
+* **Python 3.x** para executar os scripts de análise e gerar as recomendações.
+* **SQL** como base de dados para extração das informações de vendas.
+* **Power BI** para visualizar os resultados e explorar o dashboard interativo.
 
-### Instrucciones de Instalación
+### Instruções de Instalação
 
-1. Clona este repositorio en tu máquina local:
+1. Clone este repositório em sua máquina local:
 
    git clone https://github.com/marcanogc/Recuperacao-de-Clientes-com-Market-Basket-Analysis.git
 
-2. Instala las dependencias de Python:
+2. Instale as dependências do Python:
 
    pip install -r requirements.txt
 
-3. Conecta el archivo de base de datos SQLite con los scripts de SQL proporcionados.
+3. Conecte o arquivo da base de dados SQLite aos scripts SQL fornecidos.
 
-4. Ejecuta el script de Python para generar las recomendaciones personalizadas.
+4. Execute o script em Python para gerar as recomendações personalizadas:
 
    python analisis_datos.py
 
-5. Abre el archivo de Power BI para explorar el dashboard interactivo.
+5. Abra o arquivo do Power BI para explorar o dashboard interativo.
 
-Contribuciones:
+## Contribuições
 
-Las contribuciones a este proyecto son bienvenidas. Si deseas mejorar o añadir nuevas funcionalidades, por favor sigue estos pasos:
+Contribuições para este projeto são bem vindas. Caso deseje melhorar ou adicionar novas funcionalidades, sinta se à vontade para colaborar seguindo as boas práticas de desenvolvimento.
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
+Este projeto está sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
-Contacto
-Nombre: Gabriel Marcano
+## Contato
+Nome: Gabriel Marcano  
 Email: marcanogc@gmail.com
 
-Agradecimientos:
+## Agradecimentos
 
-Agradezco al Sr. Isaac González, fundador de DS4B, por su orientación en la implementación de estrategias avanzadas de análisis de datos aplicadas al marketing.
+Agradeço ao Sr. Isaac González, fundador da DS4B, pela orientação na implementação de estratégias avançadas de análise de dados aplicadas ao marketing.
